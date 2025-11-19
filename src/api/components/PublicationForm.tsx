@@ -1,5 +1,6 @@
-import { useState, FormEvent } from "react";
-import type { PublicationStatus } from "../../api/publications";
+import { useState} from "react";
+import type { FormEvent } from "react";
+import type { PublicationStatus } from "../../api/";
 
 type Props = {
   initialTitle?: string;
