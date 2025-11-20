@@ -82,16 +82,6 @@ export default function LoginPage() {
             Sign up
           </Link>
         </div>
-
-        <div className="mt-4 text-center text-sm text-gray-600">
-          View public publications:{" "}
-          <Link
-            to="/public"
-            className="text-green-600 hover:text-green-800 hover:underline"
-          >
-            Public feed
-          </Link>
-        </div>
       </div>
     </div>
   );
